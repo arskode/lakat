@@ -1,0 +1,672 @@
+profiles_path: "profiles"
+headless: true
+interval: 10  # minutes
+
+# debug
+debug: true
+screenshots_path: "screenshots"
+
+accounts:
+  - email: "email@example.com"
+    password: "s3cr3t"
+    world: "World name" 
+
+    missions: false
+    silver_barter_threshold: 500000  # 0 to disable exchange
+
+    castle:
+      upgrades:
+        - name: "Wood store"
+          level: 3
+        - name: "Stone store"
+          level: 3
+        - name: "Ore store"
+          level: 3
+
+        - name: "Wood store"
+          level: 5
+        - name: "Stone store"
+          level: 5
+        - name: "Ore store"
+          level: 5
+
+        - name: "Farm"
+          level: 6
+
+        - name: "Lumberjack"
+          level: 3
+        - name: "Quarry"
+          level: 3
+        - name: "Ore mine"
+          level: 3
+
+        - name: "Lumberjack"
+          level: 5
+        - name: "Quarry"
+          level: 5
+        - name: "Ore mine"
+          level: 5
+
+        - name: "Wood store"
+          level: 7
+        - name: "Stone store"
+          level: 7
+        - name: "Ore store"
+          level: 7
+
+        - name: "Wood store"
+          level: 9
+        - name: "Stone store"
+          level: 9
+        - name: "Ore store"
+          level: 9
+
+        - name: "Lumberjack"
+          level: 7
+        - name: "Quarry"
+          level: 7
+        - name: "Ore mine"
+          level: 7
+
+        - name: "Lumberjack"
+          level: 9
+        - name: "Quarry"
+          level: 9
+        - name: "Ore mine"
+          level: 9
+
+        - name: "Farm"
+          level: 10
+
+        - name: "Lumberjack"
+          level: 11
+        - name: "Quarry"
+          level: 11
+        - name: "Ore mine"
+          level: 11
+
+        - name: "Wood store"
+          level: 11
+        - name: "Stone store"
+          level: 11
+        - name: "Ore store"
+          level: 11
+
+        - name: "Wood store"
+          level: 13
+        - name: "Stone store"
+          level: 13
+        - name: "Ore store"
+          level: 13
+
+        - name: "Lumberjack"
+          level: 13
+        - name: "Quarry"
+          level: 13
+        - name: "Ore mine"
+          level: 13
+
+        - name: "Lumberjack"
+          level: 15
+        - name: "Quarry"
+          level: 15
+        - name: "Ore mine"
+          level: 15
+
+        - name: "Lumberjack"
+          level: 17
+        - name: "Quarry"
+          level: 17
+        - name: "Ore mine"
+          level: 17
+
+        - name: "Farm"
+          level: 14
+
+        - name: "Lumberjack"
+          level: 19
+        - name: "Quarry"
+          level: 19
+        - name: "Ore mine"
+          level: 19
+
+        - name: "Lumberjack"
+          level: 21
+        - name: "Quarry"
+          level: 21
+        - name: "Ore mine"
+          level: 21
+
+        - name: "Wood store"
+          level: 15
+        - name: "Stone store"
+          level: 15
+        - name: "Ore store"
+          level: 15
+
+        - name: "Wood store"
+          level: 17
+        - name: "Stone store"
+          level: 17
+        - name: "Ore store"
+          level: 17
+
+        - name: "Lumberjack"
+          level: 23
+        - name: "Quarry"
+          level: 23
+        - name: "Ore mine"
+          level: 23
+
+        - name: "Lumberjack"
+          level: 24
+        - name: "Quarry"
+          level: 24
+        - name: "Ore mine"
+          level: 24
+
+        - name: "Wood store"
+          level: 19
+        - name: "Stone store"
+          level: 19
+        - name: "Ore store"
+          level: 19
+
+        - name: "Wood store"
+          level: 20
+        - name: "Stone store"
+          level: 20
+        - name: "Ore store"
+          level: 20
+
+        - name: "Lumberjack"
+          level: 25
+        - name: "Quarry"
+          level: 25
+        - name: "Ore mine"
+          level: 25
+
+        - name: "Lumberjack"
+          level: 27
+        - name: "Quarry"
+          level: 27
+        - name: "Ore mine"
+          level: 27
+
+        - name: "Lumberjack"
+          level: 29
+        - name: "Quarry"
+          level: 29
+        - name: "Ore mine"
+          level: 29
+
+        - name: "Lumberjack"
+          level: 30
+        - name: "Quarry"
+          level: 30
+        - name: "Ore mine"
+          level: 30
+
+        - name: "Library"
+          level: 10
+
+        - name: "Farm"
+          level: 30
+
+        - name: "Fortifications"
+          level: 20
+
+        - name: "Arsenal"
+          level: 30
+
+        - name: "Keep"
+          level: 10
+
+        - name: "Market"
+          level: 8
+
+        - name: "Tavern"
+          level: 10
+
+    fortress:
+      upgrades:
+        - name: "Wood Storage"
+          level: 3
+        - name: "Stone Storage"
+          level: 3
+        - name: "Ore Storage"
+          level: 3
+
+        - name: "Wood Storage"
+          level: 5
+        - name: "Stone Storage"
+          level: 5
+        - name: "Ore Storage"
+          level: 5
+
+        - name: "Sawmill"
+          level: 2
+        - name: "Stonecutter"
+          level: 2
+        - name: "Forge"
+          level: 2
+
+        - name: "Sawmill"
+          level: 4
+        - name: "Stonecutter"
+          level: 4
+        - name: "Forge"
+          level: 4
+
+        - name: "University"
+          level: 2
+
+        - name: "Wood Storage"
+          level: 7
+        - name: "Stone Storage"
+          level: 7
+        - name: "Ore Storage"
+          level: 7
+
+        - name: "Wood Storage"
+          level: 9
+        - name: "Stone Storage"
+          level: 9
+        - name: "Ore Storage"
+          level: 9
+
+        - name: "Sawmill"
+          level: 5
+        - name: "Stonecutter"
+          level: 5
+        - name: "Forge"
+          level: 5
+
+        - name: "Sawmill"
+          level: 7
+        - name: "Stonecutter"
+          level: 7
+        - name: "Forge"
+          level: 7
+
+        - name: "Sawmill"
+          level: 9
+        - name: "Stonecutter"
+          level: 9
+        - name: "Forge"
+          level: 9
+
+        - name: "Sawmill"
+          level: 11
+        - name: "Stonecutter"
+          level: 11
+        - name: "Forge"
+          level: 11
+
+        - name: "University"
+          level: 6
+
+        - name: "Wood Storage"
+          level: 11
+        - name: "Stone Storage"
+          level: 11
+        - name: "Ore Storage"
+          level: 11
+
+        - name: "Wood Storage"
+          level: 13
+        - name: "Stone Storage"
+          level: 13
+        - name: "Ore Storage"
+          level: 13
+
+        - name: "Sawmill"
+          level: 13
+        - name: "Stonecutter"
+          level: 13
+        - name: "Forge"
+          level: 13
+
+        - name: "Sawmill"
+          level: 15
+        - name: "Stonecutter"
+          level: 15
+        - name: "Forge"
+          level: 15
+
+        - name: "Sawmill"
+          level: 17
+        - name: "Stonecutter"
+          level: 17
+        - name: "Forge"
+          level: 17
+
+        - name: "Sawmill"
+          level: 19
+        - name: "Stonecutter"
+          level: 19
+        - name: "Forge"
+          level: 19
+
+        - name: "Sawmill"
+          level: 21
+        - name: "Stonecutter"
+          level: 21
+        - name: "Forge"
+          level: 21
+
+        - name: "Fortress Wall"
+          level: 21
+
+        - name: "Barracks"
+          level: 23
+
+        - name: "Wood Storage"
+          level: 15
+        - name: "Stone Storage"
+          level: 15
+        - name: "Ore Storage"
+          level: 15
+
+        - name: "Wood Storage"
+          level: 17
+        - name: "Stone Storage"
+          level: 17
+        - name: "Ore Storage"
+          level: 17
+
+        - name: "Sawmill"
+          level: 22
+        - name: "Stonecutter"
+          level: 22
+        - name: "Forge"
+          level: 22
+
+        - name: "Sawmill"
+          level: 24
+        - name: "Stonecutter"
+          level: 24
+        - name: "Forge"
+          level: 24
+
+        - name: "Fortress Wall"
+          level: 24
+
+        - name: "Wood Storage"
+          level: 18
+        - name: "Stone Storage"
+          level: 18
+        - name: "Ore Storage"
+          level: 18
+
+        - name: "Wood Storage"
+          level: 20
+        - name: "Stone Storage"
+          level: 20
+        - name: "Ore Storage"
+          level: 20
+
+        - name: "University"
+          level: 10
+
+        - name: "Barracks"
+          level: 30
+
+        - name: "Fortress Wall"
+          level: 30
+
+        - name: "Sawmill"
+          level: 26
+        - name: "Stonecutter"
+          level: 26
+        - name: "Forge"
+          level: 26
+
+        - name: "Sawmill"
+          level: 28
+        - name: "Stonecutter"
+          level: 28
+        - name: "Forge"
+          level: 28
+
+        - name: "Sawmill"
+          level: 30
+        - name: "Stonecutter"
+          level: 30
+        - name: "Forge"
+          level: 30
+
+        - name: "Farm"
+          level: 30
+
+        - name: "Townhall"
+          level: 10
+
+        - name: "Marketplace"
+          level: 10
+
+        - name: "Tavern Quarter"
+          level: 10
+
+    city:
+      upgrades:
+        - name: "Wood Depot"
+          level: 3
+        - name: "Stone Depot"
+          level: 3
+        - name: "Ore Depot"
+          level: 3
+
+        - name: "Wood Depot"
+          level: 5
+        - name: "Stone Depot"
+          level: 5
+        - name: "Ore Depot"
+          level: 5
+
+        - name: "Carpentry"
+          level: 2
+        - name: "Stonecutter"
+          level: 2
+        - name: "Foundry"
+          level: 2
+
+        - name: "Carpentry"
+          level: 4
+        - name: "Stonecutter"
+          level: 4
+        - name: "Foundry"
+          level: 4
+
+        - name: "University"
+          level: 2
+
+        - name: "Wood Depot"
+          level: 7
+        - name: "Stone Depot"
+          level: 7
+        - name: "Ore Depot"
+          level: 7
+
+        - name: "Wood Depot"
+          level: 9
+        - name: "Stone Depot"
+          level: 9
+        - name: "Ore Depot"
+          level: 9
+
+        - name: "Carpentry"
+          level: 5
+        - name: "Stonecutter"
+          level: 5
+        - name: "Foundry"
+          level: 5
+
+        - name: "Carpentry"
+          level: 7
+        - name: "Stonecutter"
+          level: 7
+        - name: "Foundry"
+          level: 7
+
+        - name: "Carpentry"
+          level: 9
+        - name: "Stonecutter"
+          level: 9
+        - name: "Foundry"
+          level: 9
+
+        - name: "Carpentry"
+          level: 11
+        - name: "Stonecutter"
+          level: 11
+        - name: "Foundry"
+          level: 11
+
+        - name: "Wood Depot"
+          level: 11
+        - name: "Stone Depot"
+          level: 11
+        - name: "Ore Depot"
+          level: 11
+
+        - name: "Wood Depot"
+          level: 13
+        - name: "Stone Depot"
+          level: 13
+        - name: "Ore Depot"
+          level: 13
+
+        - name: "University"
+          level: 6
+
+        - name: "Carpentry"
+          level: 13
+        - name: "Stonecutter"
+          level: 13
+        - name: "Foundry"
+          level: 13
+
+        - name: "Carpentry"
+          level: 15
+        - name: "Stonecutter"
+          level: 15
+        - name: "Foundry"
+          level: 15
+
+        - name: "Carpentry"
+          level: 17
+        - name: "Stonecutter"
+          level: 17
+        - name: "Foundry"
+          level: 17
+
+        - name: "Carpentry"
+          level: 19
+        - name: "Stonecutter"
+          level: 19
+        - name: "Foundry"
+          level: 19
+
+        - name: "Carpentry"
+          level: 21
+        - name: "Stonecutter"
+          level: 21
+        - name: "Foundry"
+          level: 21
+
+        - name: "University"
+          level: 13
+
+        - name: "City Wall"
+          level: 21
+
+        - name: "Barracks"
+          level: 21
+
+        - name: "Wood Depot"
+          level: 15
+        - name: "Stone Depot"
+          level: 15
+        - name: "Ore Depot"
+          level: 15
+
+        - name: "Wood Depot"
+          level: 17
+        - name: "Stone Depot"
+          level: 17
+        - name: "Ore Depot"
+          level: 17
+
+        - name: "Carpentry"
+          level: 22
+        - name: "Stonecutter"
+          level: 22
+        - name: "Foundry"
+          level: 22
+
+        - name: "Carpentry"
+          level: 24
+        - name: "Stonecutter"
+          level: 24
+        - name: "Foundry"
+          level: 24
+
+        - name: "City Wall"
+          level: 24
+
+        - name: "Wood Depot"
+          level: 18
+        - name: "Stone Depot"
+          level: 18
+        - name: "Ore Depot"
+          level: 18
+
+        - name: "Wood Depot"
+          level: 20
+        - name: "Stone Depot"
+          level: 20
+        - name: "Ore Depot"
+          level: 20
+
+        - name: "University"
+          level: 20
+
+        - name: "Barracks"
+          level: 30
+
+        - name: "City Wall"
+          level: 30
+
+        - name: "Carpentry"
+          level: 26
+        - name: "Stonecutter"
+          level: 26
+        - name: "Foundry"
+          level: 26
+
+        - name: "Carpentry"
+          level: 28
+        - name: "Stonecutter"
+          level: 28
+        - name: "Foundry"
+          level: 28
+
+        - name: "Carpentry"
+          level: 30
+        - name: "Stonecutter"
+          level: 30
+        - name: "Foundry"
+          level: 30
+
+        - name: "Residential Quarters"
+          level: 30
+
+        - name: "Townhall"
+          level: 10
+
+        - name: "Harbor"
+          level: 15
+
+        - name: "Tavern Quarters"
+          level: 20

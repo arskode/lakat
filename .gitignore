@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+.mypy*
+
+.mypy_cache/
+.venv/
+.vscode/
+
+profiles/
+screenshots/
+config.yml
