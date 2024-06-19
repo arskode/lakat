@@ -1,22 +1,21 @@
-[tool.black]
+[tool.ruff]
 line-length = 100
-target-version = ['py38']
-include = '\.pyi?$'
-skip-magic-trailing-comma = true
-exclude = '''
-/(
-    \.git
-  | \.mypy_cache
-  | \.tox
-  | venv
-  | \.venv
-  | \.vscode
-  | _build
-  | build
-  | dist
-)/
-'''
+src = ["lakat"]
 
-[tool.isort]
-profile = "black"
-line_length = 100
+[tool.ruff.lint]
+select = [
+    "A",
+    "C4",
+    "E",
+    "ERA",
+    "F",
+    "PL",
+    "Q",
+    "T10",
+    "T20",
+    "UP",
+    "I",
+]
+ignore = [
+    "PLR2004",
+]

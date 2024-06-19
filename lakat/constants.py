@@ -6,13 +6,13 @@ SERVER_URL = "https://lordsandknights.com"
 LEVEL_COMPILED = re.compile(r"level (\d+)", re.IGNORECASE)
 
 
-class HabitatType(str, enum.Enum):
+class HabitatType(enum.StrEnum):
     CASTLE = "castle"
     FORTRESS = "fortress"
     CITY = "city"
 
 
-class ResearchBuilding(str, enum.Enum):
+class ResearchBuilding(enum.StrEnum):
     UNIVERSITY = "University"
     LIBRARY = "Library"
 

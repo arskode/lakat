@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - '**'
     tags:
       - '**'
   pull_request: {}
@@ -13,16 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: set up python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: "3.12"
 
       - name: install
         run: |
-          make install-deps-dev
+          make install-deps
           pip freeze
 
       - name: lint

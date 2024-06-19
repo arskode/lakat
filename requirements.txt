@@ -1,3 +1,8 @@
-playwright==1.22.0
-pydantic==1.9.1
-PyYAML==6.0
+annotated-types==0.7.0
+greenlet==3.0.3
+playwright==1.44.0
+pydantic==2.7.4
+pydantic_core==2.18.4
+pyee==11.1.0
+PyYAML==6.0.1
+typing_extensions==4.12.2

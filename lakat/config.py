@@ -1,5 +1,3 @@
-from typing import List
-
 import yaml
 from pydantic import BaseModel
 
@@ -10,15 +8,15 @@ class Building(BaseModel):
 
 
 class Castle(BaseModel):
-    upgrades: List[Building]
+    upgrades: list[Building]
 
 
 class Fortress(BaseModel):
-    upgrades: List[Building]
+    upgrades: list[Building]
 
 
 class City(BaseModel):
-    upgrades: List[Building]
+    upgrades: list[Building]
 
 
 class AccountConfig(BaseModel):
@@ -42,11 +40,11 @@ class Config(BaseModel):
     debug: bool = False
     screenshots_path: str = "screenshots"
 
-    accounts: List[AccountConfig]
+    accounts: list[AccountConfig]
 
 
 def load_config() -> Config:
-    with open("config.yml", mode="r", encoding="utf8") as config_file:
+    with open("config.yml", encoding="utf8") as config_file:
         yml = yaml.load(config_file, yaml.SafeLoader)
 
     return Config(**yml)
