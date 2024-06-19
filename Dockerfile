@@ -1,9 +1,10 @@
-FROM mcr.microsoft.com/playwright/python:v1.22.0-focal
+FROM python:3.12-bookworm
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+COPY requirements.txt .
 RUN pip install -r requirements.txt
+RUN playwright install --with-deps
 
 COPY lakat ./lakat/
 COPY config.yml ./

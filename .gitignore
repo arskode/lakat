@@ -1,11 +1,11 @@
 *.pyc
 __pycache__/
-.mypy*
 
-.mypy_cache/
+.ruff_cache/
 .venv/
 .vscode/
 
+.DS_Store
 profiles/
 screenshots/
 config.yml

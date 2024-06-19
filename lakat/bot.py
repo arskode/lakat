@@ -60,6 +60,7 @@ class Lakat:
         selectors = (
             "#game-pop-up-layer .event-pop-up-button.ButtonRedAccept",
             "#game-pop-up-layer .event-pop-up-button.Back",
+            "#game-pop-up-layer .event-new-popup__close-popup",
         )
         for selector in selectors:
             try:
@@ -136,7 +137,6 @@ class Lakat:
         return []
 
     def do_upgrade(self) -> None:
-
         upgradable_buildings = self.upgradable_buildings()
         if not upgradable_buildings:
             self.log("no buildings to upgrade")
@@ -276,7 +276,10 @@ class Lakat:
             self.page.locator("text=Barter Silver").last.click()
             self.log("silver barter ordered", habitat_name=False)
         else:
-            self.log(f"no enough expected silver to exchange: {silver_amount}", habitat_name=False)
+            self.log(
+                f"no enough expected silver to exchange: {silver_amount}",
+                habitat_name=False,
+            )
 
         self.click_mass_functions_button()
         self.page.wait_for_timeout(timeout=SECOND)
